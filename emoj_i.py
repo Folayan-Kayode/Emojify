@@ -3,6 +3,9 @@ import streamlit as st
 import cv2
 import numpy as np
 from fer.fer import FER
+from streamlit_webrtc import webrtc_streamer
+
+webrtc_streamer(key="sample")
 
 st.set_page_config(page_title="Facial Emotion Detector", page_icon="🎭", layout="centered")
 st.title("🎭 Real-Time Facial Emotion Detector")

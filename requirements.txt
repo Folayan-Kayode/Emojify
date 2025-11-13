@@ -7,3 +7,4 @@ fer
 mtcnn
 numpy
 tensorflow
+streamlit-webrtc
