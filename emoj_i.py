@@ -27,7 +27,6 @@ if run:
         # Flip frame for mirror view
         frame = cv2.flip(frame, 1)
 
-        # Detect emotions
         result = detector.detect_emotions(frame)
 
         # Draw boxes and labels
