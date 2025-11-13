@@ -1,0 +1,9 @@
+streamlit
+opencv-python-headless
+opencv-python
+opencv-contrib-python-headless
+opencv-contrib-python-headless
+fer
+mtcnn
+numpy
+tensorflow
